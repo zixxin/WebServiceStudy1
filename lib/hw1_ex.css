@@ -1,0 +1,250 @@
+Text {
+    background-color: white;
+    width: 100%;
+}
+cd {
+    display: block;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+blank{
+    display: block;
+    height: 20pt;
+}
+title {
+    display: block;
+    font-size: 20pt;
+    height: 40pt;
+    color:blue;
+    font-weight: bold;
+}
+title:hover{
+    width: 300pt;
+    height: 30pt;
+    text-align: center;
+    background-color: yellow;
+    text-shadow: 3px 3px 1px rgb(21, 85, 29);
+    color:rgb(201, 82, 248);
+}
+sentence1{
+    display: inline-block;
+    font-size: 10pt;
+    width: 195pt;
+    height: 60pt;
+    margin-left: 20pt;
+    border: 1px solid blue;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+sentence2{
+    display: inline-block;
+    font-size: 10pt;
+    width: 195pt;
+    height: 60pt;
+    margin-left: 20pt;
+}
+bar{
+    display: block;
+    width: 130pt;
+    position: absolute;
+    right: 0px;
+    height: 20pt;
+    text-align: center;
+    font-weight: bold;
+    color:rgba(106, 74, 136, 0.829);
+}
+bar:hover{
+    background-color: yellow;
+    position: absolute;
+    right: 20px;
+    border: 3px dotted red;
+    transform: rotate(20deg);
+    -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+            -o-transform: skew(20deg);
+}
+to{
+    display: block;
+    width: 100pt;
+    margin-left: 20pt;
+    font-size: 10pt;
+    font-weight: bold;
+}
+to:hover{
+    width: 130pt;
+    height: 50pt;
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgb(130, 199, 255);
+    border: 1px solid rgb(0, 115, 192);
+}
+num{
+    display: block;
+    font-size: 10pt;
+    margin-left: 20pt;
+    width: 80pt;
+    height: 10pt;
+    background-color: yellow;
+    font-weight: bold;
+    transition: all ease 3s;
+}
+num:hover{
+    transform: rotate(360deg);
+}
+from{
+    display: block;
+    width: 160pt;
+    margin-left: 20pt;
+    height: 10pt;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: width 2s;
+}
+from:hover{
+    width: 200pt;
+    height: 80pt;
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+m1{
+    display: block;
+    font-weight: bold;
+    width: 200pt;
+    height: 30pt;
+    color: purple;
+    margin-left: 300pt;
+    text-align: center;
+    font-size: 15pt;
+    border: 1px solid purple;
+    background-color: rgba(218, 202, 202, 0.541);
+    box-shadow: 10px 10px 30px 5px green;
+    position: relative;
+}
+m1:hover{
+    box-shadow: 10px 10px 30px 5px rgb(56, 94, 219);
+    -webkit-animation: move3 5s infinite;
+    animation: move3 5s infinite;
+}
+m2{
+    display: block;
+    font-weight: bold;
+    width: 250pt;
+    height: 30pt;
+    color: rgb(41, 136, 224);
+    margin-left: 20pt;
+    font-size: 15pt;
+    background-color: rgba(240, 208, 30, 0.877);
+    transition: all ease 3s;
+}
+m2:hover{
+    background-color: rgba(182, 181, 175, 0.877);
+    color: red;
+    width: 120pt;
+    text-align: center;
+    height: 60pt;
+    transform: rotate(360deg);
+}
+n1 {
+    display: block;
+    width: 220pt;
+    height: 35pt;
+    color: blue;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40pt;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    position: relative;
+}
+n1:hover{
+    background-color: rgb(155, 232, 255);
+    border: 3px solid rgba(41, 110, 27, 0.829);
+    color: rgb(192, 70, 32);
+    -webkit-animation: move1 3s infinite;
+    animation: move1 3s infinite;
+}
+n2 {
+    display: inline-block;
+    width: 120pt;
+    height: 60pt;
+    color: blue;
+    font-size: 15pt;
+    margin-left: 15pt;
+    background-color: rgba(218, 202, 202, 0.541);
+    border: 5px solid rgba(41, 110, 27, 0.829);
+    transition: all ease 3s;
+}
+n2:hover{
+    border: 3px solid blue;
+    border-radius: 15px;
+    width: 200pt;
+    height: 80pt;
+    color: red;
+    text-shadow: 5px 5px 1px rgb(21, 85, 29);
+    background-color: rgba(112, 222, 255, 0.541);
+    transform: rotate(360deg);
+}
+n3 {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    width: 290pt;
+    height: 40pt;
+    color: blue;
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgba(218, 202, 202, 0.541);
+    transition: width 2s;
+}
+n3:hover{
+    background-color: yellow;
+    border: 3px solid blue;
+    border-radius: 30px;
+    color: red;
+    position: absolute;
+    font-size: 15pt;
+    height: 30pt;
+    width: 230pt;
+    transform: rotate(-20deg);
+}
+t1{
+    display: block;
+    width: 180pt;
+    text-align: center;
+    font-weight: bold;
+    color:rgba(106, 74, 136, 0.829);
+}
+t1:hover{
+    background-color: rgba(218, 202, 202, 0.541);
+    border: 1px solid blue;
+    color: black;
+    font-size: 15pt;
+    margin-left: 40pt;
+}
+@-webkit-keyframes move1 {
+    from {left: 0px;}
+    to {left: 150px;} 
+}
+@keyframes move1 { 
+    from {left: 0px;}
+    to {left: 150px;}
+}
+@-webkit-keyframes move2 {
+    from {right: 150px;}
+    to {right: 0px;}
+}
+@keyframes move2 { 
+    from {right: 150px;}
+    to {right: 0px;}
+}
+@-webkit-keyframes move3 {
+    from {top: 0px;}
+    to {top: 100px;}
+}
+@keyframes move3 { 
+    from {top: 0px;}
+    to {top: 100px;}
+}

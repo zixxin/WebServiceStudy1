@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "ex_hw1.css"?>
+<Text>
+    <cd>
+        <title>Send Text to Eugene</title>
+        <blank></blank>
+        <bar>Meeting Schedule</bar>
+        <to>To: Eugene</to>
+        <num>010-123-4567</num>
+        <blank></blank>
+        <from>From: Hong, Gil-Dong</from>
+        <blank></blank>
+        <m1>Can we meet tomorrow?</m1>
+        <blank></blank>
+        <m2>Please, interprete the writing.</m2>
+        <blank></blank>
+        <sentence1>
+        Lorem ipsum dolor sit amet, consectetuer 
+        adipiscing slit, sed diam nonummy nibh 
+        euismod tincidunt ut laoreet dolore magna 
+        aliquam erat volutpat. Ut wisi enim ad 
+        minim veniam, quis nostrud exerci tation
+        </sentence1>
+        <line></line>
+        <sentence1>
+        ullamcorper suscipit lobortis nisl ut aliquip
+        ex ea commodo consequat. Duis autem vel
+        eum iriure dolor in hendrerit in vulputate
+        velit esse molestie consequat, vel illum
+        dolore eu feugiat nulla facilisis at vero eros
+        </sentence1>
+        <line></line>
+        <sentence2>
+        et accusan et iusto odio dignissim quis
+        blandit praesent luptatum zzril delenit
+        augue duis dolore te feugait nulla facilisi.
+        </sentence2>
+    </cd>
+    <cd>
+        <title>Exercise Schedule and Diet</title>
+        <blank></blank>
+        <n1>Running 2KM</n1>
+        <blank></blank>
+        <n2>Cycling 10 KM</n2>
+        <n3>One Egg with Skim Milk</n3>
+        <blank></blank>
+    </cd>
+    <cd>
+    <title>Reading Newspaper</title>
+    <blank></blank>
+    <t1>Main News</t1>
+    <blank></blank>
+  </cd>
+</Text>
